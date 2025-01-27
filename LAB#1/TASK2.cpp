@@ -7,17 +7,17 @@ char c_grade(double average);
 
 int main() 
 {
-    int n;
+    int num;
 
     cout << "Enter number of students: ";
-    cin >> n;
+    cin >> num;
 
     string name;
     double pf, oop, dld, ict, total, avg;
 
-    for (int i = 0; i < n; i++) 
+    for (int i = 0; i < num; i++) 
 	{
-        cout << "Enter details for student: " << (i + 1) << endl;
+        cout << "Enter details for student: " << i + 1 << endl;
 
 
         cout << "Enter student name: ";
