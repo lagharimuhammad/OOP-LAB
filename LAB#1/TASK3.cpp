@@ -12,7 +12,7 @@ cout << endl;
 cout << "enter second operand: ";
 cin >> num2;
 cout << endl;
-cout << "1 for '-' \n 2 for'+' \n 3 for'/' \n 4 for'*'" << endl;
+cout << "1 for '-' \n 2 for'+' \n 3 for'/' \n 4 for'*'"<< endl;
 cout << "enter operation: ";
 cin >> operation;
 
