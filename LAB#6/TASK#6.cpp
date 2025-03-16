@@ -13,14 +13,14 @@ public:
 class Smartphone : virtual public Device 
 {
 public:
-	int sims;
+    int sims;
     Smartphone(string b, string m, int s) : Device(b, m), sims(s) {}
 };
 
 class Tablet : virtual public Device 
 {
 public:
-	bool stylus;
+    bool stylus;
     Tablet(string b, string m, bool st) : Device(b, m), stylus(st) {}
 };
 
