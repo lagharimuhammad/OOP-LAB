@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-
 using namespace std;
 
 class Book 
@@ -11,7 +10,6 @@ protected:
     string publisher;
 public:
     Book(string title, string author, string publisher) : title(title), author(author), publisher(publisher) {}
-
     void display() 
     {
         cout << "title: " << title << endl << "author: " << author<< endl << "publisher: " << publisher << endl;
