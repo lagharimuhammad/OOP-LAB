@@ -14,7 +14,7 @@ public:
 class Car : public Vehicle 
 {
 public:
-	int door;
+    int door;
     double fuel_E;
     Car(string c, string m, int y, int d, double f) : Vehicle(c, m, y), door(d), fuel_E(f) {}
 };
